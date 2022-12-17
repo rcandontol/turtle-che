@@ -1,0 +1,18 @@
+turtle.pen(TurtlePenMode.Down)
+turtle.setPosition(0, 0)
+turtle.turnRight()
+for (let index = 0; index <= 4; index++) {
+    turtle.forward(4 - index)
+    turtle.turnRight()
+    turtle.forward(1)
+}
+turtle.turnRight()
+turtle.forward(2)
+turtle.turnRight()
+turtle.forward(2)
+turtle.turnRight()
+turtle.forward(3)
+turtle.turnRight()
+turtle.forward(3)
+turtle.turnRight()
+turtle.forward(4)
